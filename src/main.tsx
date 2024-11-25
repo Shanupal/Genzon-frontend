@@ -8,11 +8,12 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Auth0Provider
-       domain="dev-b8ohprg6s1ughznc.us.auth0.com"
-       clientId="XUs3MEt5hI4bgZdSJv1jG7XlU5EWhx0j"
-       authorizationParams={{
-         redirect_uri: window.location.origin
-       }}
+      
+      domain="dev-b8ohprg6s1ughznc.us.auth0.com"
+    clientId="JqxZXVCnTXVY7x2UM1ESyHtOXyfzS0Zd"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
     >
       <App />
     </Auth0Provider>
